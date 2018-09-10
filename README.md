@@ -3,9 +3,9 @@ contain a schema that
 [github.com/xeipuuv/gojsonschema](github.com/xeipuuv/gojsonschema) can load
 and validate documents against.
 
--dir string
-    The directory containing the schemas to validate.
--help
-    Show usage information.
--verbose
-    Print verbose output.
+    -dir string
+        The directory containing the schemas to validate.
+    -help
+        Show usage information.
+    -verbose
+        Print verbose output.
