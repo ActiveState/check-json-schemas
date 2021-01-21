@@ -9,3 +9,6 @@ and validate documents against.
         Show usage information.
     -verbose
         Print verbose output.
+
+If if finds any invalid files it will set the exit status to 1. Otherwise it
+is 0.

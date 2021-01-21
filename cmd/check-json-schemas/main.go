@@ -62,7 +62,7 @@ func main() {
 		}
 		_, err = gojsonschema.NewSchema(l, gojsonschema.NewSchemaParams{RefResolver: resolver})
 		if err != nil {
-			exit++
+			exit = 1
 			fmt.Fprintf(os.Stderr, "%s does not contain a valid JSON schema:\n  %v\n\n", f, err)
 		}
 		if verbose {
